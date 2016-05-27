@@ -1,6 +1,6 @@
 <html>
 <body>
-<?php $username="Nishanth";$password="shambhavi!1";$database="public_surveillance";
+<?php $username="***";$password="***";$database="public_surveillance";
 mysql_connect(localhost,$username,$password);
 @mysql_select_db($database) or die( "Unable to select database");
 $query="SELECT loc_name AS Location, MAX(accident_type) AS Accident, COUNT(accident_type) AS Number
