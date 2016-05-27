@@ -1,6 +1,6 @@
 <html>
 <body>
-<?php $username="Nishanth";$password="";$database="healthcare_surveillance";
+<?php $username="***";$password="***";$database="healthcare_surveillance";
 mysql_connect(localhost,$username,$password);
 @mysql_select_db($database) or die( "Unable to select database");
 $query=" SELECT FirstName, LastName FROM citizen_info,smokers,chronic_diseases
